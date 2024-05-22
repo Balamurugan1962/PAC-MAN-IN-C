@@ -1,7 +1,14 @@
-#include "include/raylib.h"
-#include "include/raymath.h"
-#include "Levels.h"
+#pragma once
+
 #include "globle.h"
+#include "Levels.h"
+
+#define HEIGHT 950
+#define WIDTH 900
+#define MAP_WIDTH 30
+#define MAP_HEIGHT 33
+#define MAX_LEVEL 1
+#define cellsize (WIDTH/30)
 
 
 void DrawMaze(int Level){
