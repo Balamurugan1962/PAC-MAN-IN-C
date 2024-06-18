@@ -1,4 +1,3 @@
-markdown
 # Pac-Man Project in C
 
 ## Introduction
