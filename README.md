@@ -40,7 +40,7 @@ The main objectives of the Pac-Man project are to:
 
 - **Chase Mode**: Ghosts actively chase Pac-Man.
 - **Scatter Mode**: Ghosts retreat to their corners of the maze.
-- **Frightened Mode**: When Pac-Man eats a power pellet, ghosts become vulnerable and can be eaten.
+- **Vulnarable Mode**: When Pac-Man eats 5 power pellets, ghosts become vulnerable and can be eaten.
 
 ## Implementation Details
 
@@ -60,13 +60,14 @@ The main objectives of the Pac-Man project are to:
 
 ### Code Organization
 
-- **main.c**: Entry point of the game, containing the main loop and initialization code.
-- **game.c/game.h**: Core game logic and state management.
-- **graphics.c/graphics.h**: Rendering functions and graphical asset management.
-- **input.c/input.h**: User input handling.
-- **ai.c/ai.h**: Ghost AI behaviors and state transitions.
-- **entities.c/entities.h**: Structures and functions for game entities like Pac-Man and ghosts.
-- **collision.c/collision.h**: Collision detection and response logic.
+- **main.c**: Entry point of the game, containing the main loop ,initialization code and user input  managemnet.
+- **pacman.h**:  Drawing Pacman and updating its position.
+- **ghost.h**: Ghost AI behaviors and state transitions.
+- **logic.h**: Core game logic and collision detection and response logic.
+- **GenMaze.h**: Genrating the maze by taking data from a txt file.
+- **spath.h**: Used to generate shortest path(Uses A* Algorithm).
+- **globe.h**: Contains the globle data structures for the easy acces.
+- **ui.h**: Contains all the UI components such as buttons, menu screen, main screen etc.
 
 ## Getting Started
 
