@@ -21,7 +21,7 @@ The main objectives of the Pac-Man project are to:
 
 - **Maze Navigation**: Pac-Man can navigate through a maze filled with pellets.
 - **Pellets and Power Pellets**: Eating pellets increases the score, and eating power pellets temporarily allows Pac-Man to eat ghosts.
-- **Ghosts**: Four ghosts (Blinky, Pinky, Inky, and Clyde) chase Pac-Man with unique AI behaviors.
+- **Ghosts**: Four ghosts (Blinky, Pinky, Inky, and Clyde) chase Pac-Man with unique behaviors.
 - **Lives**: Pac-Man starts with a set number of lives. A life is lost when a ghost catches Pac-Man.
 - **Scoring**: Points are awarded for eating pellets, power pellets, and ghosts.
 
