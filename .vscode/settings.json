@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "raymath.h": "c",
+        "raylib.h": "c",
+        "stdio.h": "c",
+        "globle.h": "c",
+        "logics.h": "c",
+        "spath.h": "c",
+        "ghost.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}
