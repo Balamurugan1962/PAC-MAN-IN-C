@@ -80,7 +80,7 @@ The main objectives of the Pac-Man project are to:
 
 1. Clone the repository:
    sh
-   git clone https://github.com/username/pacman-project.git
+   git clone https://github.com/Balamurugan1962/PAC-MAN-IN-C/tree/main
    
 2. Navigate to the project directory:
    sh
